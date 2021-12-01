@@ -4,5 +4,5 @@
 2. Mở cmd: pip install -r requirements.txt
 3. Điền các thông tin đăng nhập vào file ini.conf, copy các đối tượng cần chỉnh sửa vào file excel trong thư mục excelfile
 4. Cài đặt selenium firefox driver theo hướng dẫn tại đây https://www.selenium.dev/documentation/getting_started/
-5. python main.py
+5. Mở cmd trong thư mục mã nguồn: python main.py
 6. điền OTP được yêu cầu
