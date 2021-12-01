@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 import time
 from openpyxl import load_workbook
 
-
 checkotp_url = 'https://tiemchungcovid19.moh.gov.vn/Account/CheckOtp'
 success_otp_url = 'https://tiemchungcovid19.moh.gov.vn/KeHoachTiemChungArea/KeHoachTiem'
 doituong_url = 'https://tiemchungcovid19.moh.gov.vn/TiemChung/DoiTuong/IndexCovid'
@@ -65,8 +64,6 @@ if is_login_success:
         cccd = row[2].value
 
         print('Bắt đầu cập nhật: ', name, phone, cccd)
-
-    
 
         time.sleep(1)
         driver.get(doituong_url)
